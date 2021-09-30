@@ -1,26 +1,26 @@
-# Unity-ARFoundation-echoAR-demo-MultiplayerTicTacToe
-A multiplayer Tic-Tac-Toe demo created with Unity, AR Foundation, and echoAR.
+# Unity-ARFoundation-echo3D-demo-MultiplayerTicTacToe
+A multiplayer Tic-Tac-Toe demo created with Unity, AR Foundation, and echo3D.
 
 ## Register
-Don't have an API key? Make sure to register for FREE at [echoAR](https://console.echoar.xyz/#/auth/register).
+Don't have an API key? Make sure to register for FREE at [echo3D](https://console.echo3D.co/#/auth/register).
 
 ## Setup
 * Clone this project and open in Unity
-* Set your echoAR API key in the echoAR prefab
-* Add the models from the models folder to the echoAR console
-* Add the corresponding metadata from the metadata folder to the model on the echoAR console
+* Set your echo3D API key in the echo3D prefab
+* Add the models from the models folder to the echo3D console
+* Add the corresponding metadata from the metadata folder to the model on the echo3D console
 * Update the following variables in CustomBehaviour.cs: `string APIKey` and `string playerName`
 
 
 ## Run
-* [Build and run the AR application](https://docs.echoar.xyz/unity/adding-ar-capabilities#4-build-and-run-the-ar-application).
+* [Build and run the AR application](https://docs.echo3D.co/unity/adding-ar-capabilities#4-build-and-run-the-ar-application).
 * Build two instances of the game, one instance with `string playerName = "o"` and another instance with `string playerName = "x"` to simulate multiplayer
 
 ## Learn more
-Refer to our [documentation](https://docs.echoar.xyz/unity/) to learn more about how to use Unity and echoAR.
+Refer to our [documentation](https://docs.echo3D.co/unity/) to learn more about how to use Unity and echo3D.
 
 ## Support
-Feel free to reach out at [support@echoAR.xyz](mailto:support@echoAR.xyz) or join our [support channel on Slack](https://join.slack.com/t/echoar/shared_invite/enQtNTg4NjI5NjM3OTc1LWU1M2M2MTNlNTM3NGY1YTUxYmY3ZDNjNTc3YjA5M2QyNGZiOTgzMjVmZWZmZmFjNGJjYTcxZjhhNzk3YjNhNjE).
+Feel free to reach out at [support@echo3D.co](mailto:support@echo3D.co) or join our [support channel on Slack](https://go.echo3D.co/join).
 
 ## Screenshots
 ![demo](/media/live_demo.gif)
